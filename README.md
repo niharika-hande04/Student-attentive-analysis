@@ -128,7 +128,7 @@ Real-time dashboard using Streamlit or Dash
 Clone the Repository
 Download the code from GitHub:
 
-git clone https://github.com/your-username/emotion-detection.git
+git clone https://github.com/niharika-hande04/Student-attentive-analysis.git
 cd emotion-detection
 
 Install Python Dependencies
