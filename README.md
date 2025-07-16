@@ -97,44 +97,44 @@ Real-time dashboard using Streamlit or Dash
 
 
 
-## 🚀 How to Run the Project
+✅ Steps to Run the Project
+Clone the Repository
+Download the code from GitHub:
 
-Follow these steps to run the real-time emotion detection system:
-
-### 1️⃣ Clone the Repository
-```bash
 git clone https://github.com/your-username/emotion-detection.git
 cd emotion-detection
-2️⃣ Install Requirements
-Ensure you have Python 3.7+ installed. Then install the dependencies:
 
-bash
-Copy
-Edit
+Install Python Dependencies
+Make sure Python 3.7+ is installed, then install the required libraries:
+
 pip install -r requirements.txt
-3️⃣ Prepare the Dataset
-Download the FER2013 dataset and place the train folder inside:
+Download and Organize Dataset
 
-swift
-Copy
-Edit
-C:/Users/nihar/OneDrive/Desktop/mini/
-4️⃣ Run the Application
-Start the real-time webcam emotion detection:
+Get the FER2013 dataset from this Kaggle link
 
-bash
-Copy
-Edit
+Extract the dataset and place the train folder at:
+
+
+C:\Users\nihar\OneDrive\Desktop\mini\fer2013\train
+Train the Model (Optional)
+
+If emotion_model.pt doesn’t exist, the script will automatically train the model.
+
+If the model exists, it will be loaded directly.
+
+Run the Real-Time Emotion Detection
+Execute the script:
+
 python demo.py
-5️⃣ Output
-The webcam window will show detected faces with predicted emotion and attention status.
+Interact with the Application
 
-Real-time logs will appear in the terminal.
+The webcam window will open and detect emotions in real-time.
 
-Detection logs are saved in:
+Emotion, attentiveness status, and percentage will be displayed on screen.
 
-swift
-Copy
-Edit
-C:/Users/nihar/OneDrive/Desktop/mini/time_complexity_log.csv
-Press q to quit the webcam window.
+Console logs will show detection info.
+
+A CSV file named time_complexity_log.csv will store detection logs (with date, time, emotion, and elapsed time).
+
+Exit the Program
+Press q in the webcam window to quit.
